@@ -74,15 +74,15 @@ let C: boolean = true;
 
 // AND gate
 let ANDgate: boolean = A && B;
-console.log("AND gate result:", ANDgate); // Output: false
+console.log("AND gate result:", ANDgate); 
 
 // OR gate
 let ORgate: boolean = A || B;
-console.log("OR gate result:", ORgate); // Output: true
+console.log("OR gate result:", ORgate); 
 
 // NOT gate (using variable C)
 let NOTgate: boolean = !C;
-console.log("NOT gate result:", NOTgate); // Output: false
+console.log("NOT gate result:", NOTgate); 
 
 // 8. Compound Assignment
 
@@ -162,7 +162,7 @@ console.log(`The maximum of ${x}, ${y}, and ${z} is ${max}.`);
 
 // 13. Leap Year Checker
 
-let year: number = 2024; // You can assign any year to 'year'
+let year: number = 2024; 
 
 let isLeapYear: boolean;
 
@@ -198,10 +198,17 @@ if (number > 0) {
 }
 // 16. Multiplication Table
 
-let number01: number = 7; // You can assign any number to 'number'
+let number1: number = 7; 
 
-console.log(`Multiplication table for ${number01}:`);
-for (let i = 1; i <= 10; i++) {
-    let product: number = number01 * i;
-    console.log(`${number01} * ${i} = ${product}`);
-}
+console.log(`Multiplication table for ${number1}:`);
+console.log(`${number1} * 1 = ${number1 * 1}`);
+console.log(`${number1} * 2 = ${number1 * 2}`);
+console.log(`${number1} * 3 = ${number1 * 3}`);
+console.log(`${number1} * 4 = ${number1 * 4}`);
+console.log(`${number1} * 5 = ${number1 * 5}`);
+console.log(`${number1} * 6 = ${number1 * 6}`);
+console.log(`${number1} * 7 = ${number1 * 7}`);
+console.log(`${number1} * 8 = ${number1 * 8}`);
+console.log(`${number1} * 9 = ${number1 * 9}`);
+console.log(`${number1} * 10 = ${number1 * 10}`);
+
